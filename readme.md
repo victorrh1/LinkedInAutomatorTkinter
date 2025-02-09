@@ -23,5 +23,5 @@ Esse projeto reflete o uso de Python para criar soluções práticas, otimizando
 
 # Como usar [para desenvolvedores]
 1. Baixe o arquivo como zip
-2. Instale as dependências do projeto `pip install -r requirements.txt`
+2. Instale as dependências do projeto, no diretorio execute com o cmd, o comando `pip install -r requirements.txt`
 3. Execute o `main_gui_tkinter.py` com `python main_gui_tkinter.py`
