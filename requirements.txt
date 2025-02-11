@@ -1,6 +1,6 @@
-attrs==24.2.0
-certifi==2024.7.4
-cffi==1.17.0
+attrs==25.1.0
+certifi==2025.1.31
+cffi==1.17.1
 customtkinter==5.2.2
 cx_Freeze==7.2.0
 cx_Logging==3.2.0
@@ -27,4 +27,3 @@ urllib3==2.2.2
 websocket-client==1.8.0
 wheel==0.43.0
 wsproto==1.2.0
-
