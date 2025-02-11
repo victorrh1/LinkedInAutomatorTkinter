@@ -15,13 +15,14 @@ Automação inteligente: Realiza todo o processo sozinho após o início.
 Limite de conexões: Garante conformidade com as políticas do LinkedIn.
 Esse projeto reflete o uso de Python para criar soluções práticas, otimizando tempo e esforço em atividades repetitivas.
 
-# Como usar [para não desenvolvedores]
-1. Baixe o arquivo como zip
-2. Baixe o arquivo `VC_redist.x64.exe` ou `VC_redist.x86.exe` de acordo com sua arquitetura
-3. Faça a instalação do arquivo baixado acima 
-4. Entre na pasta `build/exe.win-amd64-3.12` 
-
 # Como usar [para desenvolvedores]
 1. Baixe o arquivo como zip
+
 2. Instale as dependências do projeto, no diretorio execute com o cmd, o comando `pip install -r requirements.txt`
-3. Execute o `main_gui_tkinter.py` com `python main_gui_tkinter.py`
+
+OBS: (Pode ser que dê algum erro, pelas versões estarem desatualizadas, verifique as versões mais atualizadas do requirements)
+
+3. Execute o `main_gui_tkinter.py`
+
+4. Busque a profissão desejada e inicie a automação.
+
