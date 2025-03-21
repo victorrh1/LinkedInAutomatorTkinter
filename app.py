@@ -10,7 +10,6 @@ import random
 
 logging.basicConfig(filename='erros.log', filemode='a', level=logging.ERROR)
 
-# Credenciais de login
 LINKEDIN_EMAIL = "Digite o usuário"
 LINKEDIN_SENHA = "Digite a senha"
 
@@ -20,7 +19,6 @@ def conectar_com_pessoas_na_pagina_atual(driver, wait, window, conexoes_enviadas
         window.write_output('Buscando por botões de conectar na página atual\n')
         sleep(random.randint(2, 5))
         
-        # Scroll 
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         sleep(2)
         
