@@ -2,7 +2,6 @@ import customtkinter as ctk
 from threading import Thread
 from app import iniciar_automacao
 
-# Inicializar o custom
 ctk.set_appearance_mode("Dark")  
 ctk.set_default_color_theme("dark-blue")  
 
@@ -13,7 +12,6 @@ class App(ctk.CTk):
         self.title("Linked Automator")
         self.geometry("500x500")
         
-        # Elementos UI
         self.label = ctk.CTkLabel(self, text="Qual profissão deseja buscar")
         self.label.pack(pady=10)
         
@@ -36,7 +34,7 @@ class App(ctk.CTk):
     
     def write_output(self, text):
         self.output_text.insert("end", text)
-        self.output_text.yview("end")  # Scroll
+        self.output_text.yview("end")
 
 if __name__ == "__main__":
     app = App()
